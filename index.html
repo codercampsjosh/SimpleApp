@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="MovieApp">
   <head>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
+    <script src="bower_components\angular\angular.min.js"></script>
     <script src="app.js"></script>
+    <script src="controllers.js"></script>
+  </head>
+  <body ng-controller="MovieListController as c">
+    <ul>
+      <li ng-repeat="movie in c.movies">Title: {{movie.title}} Director: {{movie.director}}
+    </ul>
   </body>
 </html>

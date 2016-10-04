@@ -1,3 +1,3 @@
-namespace SimpleApp {
-  angular.module("SimpleApp", [])
+namespace MovieApp {
+  angular.module("MovieApp", []);
 }

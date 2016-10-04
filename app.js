@@ -1,4 +1,4 @@
-var SimpleApp;
-(function (SimpleApp) {
-    angular.module("SimpleApp", []);
-})(SimpleApp || (SimpleApp = {}));
+var MovieApp;
+(function (MovieApp) {
+    angular.module("MovieApp", []);
+})(MovieApp || (MovieApp = {}));
